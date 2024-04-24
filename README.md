@@ -37,7 +37,7 @@ cargo build --release
 
 
 ```sh
-./target/release/orz.exe --rpc "" --priority-fee 1 --keypair 'path to keypair' --priority-fee 1 mine --threads 4
+./target/release/orz.exe --rpc "" --keypair 'path to keypair' --priority-fee 1 mine --threads 4
 ```
 
 You will now run your hashing on the GPU instead of the CPU!
